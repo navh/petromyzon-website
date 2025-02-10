@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETROMYZON TECHNOLOGIES, INC.</title>
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        ol {
+            list-style-position: inside;
+        }
+
+        li {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            font-family: Inter, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: black;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            max-width: 800px;
+            width: 90%;
+            margin: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            border: 1px solid black;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                max-width: none;
+                margin: 0;
+                border-radius: 0;
+                border: none;
+                box-shadow: none;
+                padding: 10px;
+            }
+
+            body {
+                align-items: flex-start;
+            }
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-bottom: 0.5em;
+        }
+
+        .logo {
+            width: 500px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .founder-images {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .founder-images img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="logo.svg" alt="Your Business Logo" , class="logo">
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>We are developing technology to capture the most accurate models of underwater structures.</p>
+                <p>Pairing Sonar with neuromorphic hardware enables AI workloads to be run as close to the sensor as
+                    possible. This offers higher bandwidth, more signal, less noise, and lower power consumption.
+                    By running networks that can Detect, Locate, Classify, and Track underwater contacts we create a
+                    real-time 3D model of the underwater environment.
+                </p>
+                <p>
+                    Toronto's proximity to the St. Lawrence Seaway gives us access to a wide range of underwater
+                    structures in fresh water for testing and development.
+                </p>
+            </section>
+
+            <section id="founders">
+                <h2>Our Founders</h2>
+                <!-- <div class="founder-images"> -->
+                <!-- <img src="murat.jpg" alt="Murat Can Isik"> -->
+                <!-- <img src="amos.jpg" alt="Amos Hebb"> -->
+                <!-- </div> -->
+                <p><b>Murat Isik</b> received his B.Sc. degree in Electrical and Electronics Engineering from Turkey in
+                    2021, followed by an M.Sc. in Electrical and Computer Engineering from Drexel University,
+                    Philadelphia, USA, in 2023.
+                    He is currently pursuing a PhD in Electrical Engineering at Stanford University, focusing on energy
+                    estimation projects and their applications. He also holds a research scholarship at SLAC National
+                    Accelerator Laboratory, where he continues his work on energy estimation. His contributions to
+                    academia include awards from organizations such as IEEE, APS, ACM, Foresight, and the Howard Brain
+                    Science Foundation. Along with an extensive portfolio of published research, Murat's interests lie
+                    in Neuromorphic Hardware and the development of novel architectures for machine learning
+                    acceleration. His work has earned recognition from institutions like the NSF and DOE, as well as
+                    grant support for his innovative research.
+                </p>
+                <p><b>Amos Hebb</b> received his B.Eng. degree in Electrical and Computer Engineering from
+                    the Royal Military College of Canada in 2019, with a capstone project using neural networks for
+                    sensor fusion in a SLAM pipeline, and an M.A.Sc. in Electrical and Computer
+                    Engineering from the University of Toronto, focusing on scheduling of mixed sensors for searching
+                    and tracking targets with reinforcement learning.
+                    He has operational experience on CP-140, Boeing P-8, and Kawasaki P-1.
+                    He runs underwater photogrammetry courses and dives year round in Lake Ontario and the Bay of Fundy.
+                </p>
+            </section>
+
+            <section id="services">
+                <h2>Services</h2>
+                <ul>
+                    <li>Live bathymetry.</li>
+                    <li>Underwater inspections.</li>
+                    <li>Environmental research.</li>
+                    <li>Archaeology.</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: info@petromyzon.com</p>
+                <p>Phone: (647) 581-4224</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 PETROMYZON TECHNOLOGIES, INC.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
